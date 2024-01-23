@@ -1,5 +1,5 @@
 import Who from './Pages/Who';
-import Hero from './Pages/Hero';
+import Hero from './Pages/Home';
 import Work from './Pages/Work';
 import Contact from './Pages/Contact';
 import './App.css';
@@ -10,7 +10,7 @@ function App() {
   <div className='App'>
     <BrowserRouter>
     <Routes>
-        <Route path='/' element={<Hero/>}/>
+        <Route path='/' element={<Home/>}/>
         <Route path='/Who' element={<Who/>}/>
         <Route path='/Work' element={<Work/>}/>
         <Route path='/Contact' element={<Contact/>}/>
