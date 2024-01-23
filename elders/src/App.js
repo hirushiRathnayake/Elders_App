@@ -1,7 +1,7 @@
-import Contact from './components/Contact';
-import Hero from './components/Hero';
-import Who from './components/Who';
-import Work from './components/Work';
+import Who from './Pages/Who';
+import Hero from './Pages/Hero';
+import Work from './Pages/Work';
+import Contact from './Pages/Contact';
 import './App.css';
 import {BrowserRouter,Router,Routes,Route} from "react-router-dom";
  
