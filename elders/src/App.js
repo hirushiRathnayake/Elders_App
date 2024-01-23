@@ -1,5 +1,5 @@
 import Who from './Pages/Who';
-import Hero from './Pages/Home';
+import Home from './Pages/Home';
 import Work from './Pages/Work';
 import Contact from './Pages/Contact';
 import './App.css';

@@ -1,9 +1,9 @@
 import React from 'react'
-import '../style/Hero.css';
+import '../style/Home.css';
 import Navbar from '../components/Navbar';
 
 
-function Hero() {
+function Home() {
   return (
     <div className='Hero'>
     <Navbar/>
@@ -11,4 +11,4 @@ function Hero() {
   )
 }
 
-export default Hero
+export default Home
